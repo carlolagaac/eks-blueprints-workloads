@@ -15,6 +15,7 @@ spec:
   tags:
     karpenter.sh/cluster_name: {{.Values.spec.clusterName}}
     karpenter.sh/provisioner: default
+    Project: eks-blueprints
   metadataOptions:
     httpEndpoint: enabled
     httpProtocolIPv6: disabled
